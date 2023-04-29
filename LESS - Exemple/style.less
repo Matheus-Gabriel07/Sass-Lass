@@ -1,0 +1,25 @@
+@font: #2d344a;
+
+.dropshadow (@color: yellow) {
+    color: @color;
+    text-shadow: 2px 1px 1px #ccc;
+    text-decoration: underline;
+}
+
+.text {
+    font-family: sans-serif;
+    font-size: 24px
+}
+
+h1{
+    .dropshadow(green);
+}
+
+p{
+    .text();
+    color: @font;
+
+    b{
+        color: red;
+    }
+}
