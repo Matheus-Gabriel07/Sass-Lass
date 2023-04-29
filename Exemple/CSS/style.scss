@@ -1,0 +1,23 @@
+@import './_variables';
+@import './bolls';
+
+@mixin flexCenter ($justify_content, $flex_direction){
+    display: flex;
+    justify-content: $justify-content;
+    align-items: center;
+    flex-direction: $flex_direction;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    @include flexCenter(space-between, column);
+    width: 100%;
+    height: 100vh;
+
+    background: #121212;
+}

@@ -1,0 +1,31 @@
+.bola1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    background: $primColor;
+
+    a{
+        color: $netroColor;
+    }
+
+    &:hover{
+        background-color: $whiteColor;
+    }
+}
+
+.bola2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    background: $netroColor;
+}
+
+.bola3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    background: $tercColor;
+}
